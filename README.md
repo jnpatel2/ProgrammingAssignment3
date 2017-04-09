@@ -14,7 +14,7 @@ There is just a script called run_analysis.R. It contain code to perform below s
 * Create tidy dataset with only mean per variable per activty per subject
 * Write tidy dataset to mean_per_var_act_sub.txt
 
-The [CodeBook.md](www.github.com) explain processed dataset and its variables.
+The [CodeBook.md](https://github.com/jnpatel2/ProgrammingAssignment3/blob/master/CodeBook.md) explain processed dataset and its variables.
 
 ## Run from command line
 
