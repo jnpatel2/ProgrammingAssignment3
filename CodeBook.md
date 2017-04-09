@@ -19,247 +19,247 @@ This code is splitted in different sections, divided in steps.
 ### Variable Name and Detail
 
 * Activity
- + Define Activity for which sample is taken
++ Define Activity for which sample is taken
 
 * Subject                           
- + Define volunteer number for which measurement is taken out of 30 volunteer 
++ Define volunteer number for which measurement is taken out of 30 volunteer 
 
 * tBodyAcc-mean()-X                 
- + Mean of Body Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAcc-mean()-Y                 
- + Mean of Body Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAcc-mean()-Z                 
- + Mean of Body Accelerometer samples for Z axis per per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer samples for Z axis per per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-mean()-X              
- + Mean of Gravity Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-mean()-Y              
- + Mean of Gravity Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-mean()-Z              
- + Mean of Gravity Accelerometer samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-mean()-X             
- + Mean of Body Jerk Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-mean()-Y             
- + Mean of Body Jerk Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-mean()-Z             
- + Mean of Body Jerk Accelerometer samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyGyro-mean()-X                
- + Mean of Body Gyro samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro samples for X axis per volunteer for activity measured in radians/second
 
 * tBodyGyro-mean()-Y                
- + Mean of Body Gyro samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro samples for Y axis per volunteer for activity measured in radians/second
 
 * tBodyGyro-mean()-Z                
 + Mean of Body Gyro samples for Z axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-mean()-X            
- + Mean of Body Jerk Gyro samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Jerk Gyro samples for X axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-mean()-Y            
- + Mean of Body Jerk Gyro samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Jerk Gyro samples for Y axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-mean()-Z            
- + Mean of Body Jerk Gyro samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Jerk Gyro samples for Z axis per volunteer for activity measured in radians/second
 
 * tBodyAccMag-mean()                
- + Mean of Body Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAccMag-mean()             
- + Mean of Gravity Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerkMag-mean()            
- + Mean of Body Jerk Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g' 
++ Mean of Body Jerk Accelerometer Magnitude samples per volunteer for activity measured in gravity unit 'g' 
 
 * tBodyGyroMag-mean()               
- + Mean of Body Gyro Magnitude samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Magnitude samples per volunteer for activity measured in radians/second
 
 * tBodyGyroJerkMag-mean()           
- + Mean of Body Jerk Gyro Magnitude samples per volunteer for activity measured in radians/second
++ Mean of Body Jerk Gyro Magnitude samples per volunteer for activity measured in radians/second
 
 * fBodyAcc-mean()-X                 
- + Mean of Body Accelerometer FFT samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-mean()-Y                 
- + Mean of Body Accelerometer FFT samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-mean()-Z                 
- + Mean of Body Accelerometer FFT samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-meanFreq()-X             
- + Mean of Body Accelerometer mean frequency samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer mean frequency samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-meanFreq()-Y             
- + Mean of Body Accelerometer mean frequency samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer mean frequency samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-meanFreq()-Z             
- + Mean of Body Accelerometer mean frequency samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer mean frequency samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-mean()-X             
- + Mean of Body Jerk Accelerometer FFT samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer FFT samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-mean()-Y             
- + Mean of Body Jerk Accelerometer FFT samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer FFT samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-mean()-Z            
-  + Mean of Body Jerk Accelerometer FFT samples for Z axis per volunteer for activity measured in gravity unit 'g'
+ + Mean of Body Jerk Accelerometer FFT samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-meanFreq()-X         
- + Mean of Body Jerk Accelerometer mean frequency samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer mean frequency samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-meanFreq()-Y         
- + Mean of Body Jerk Accelerometer mean frequency samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer mean frequency samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-meanFreq()-Z         
- + Mean of Body Jerk Accelerometer mean frequency samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Jerk Accelerometer mean frequency samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyGyro-mean()-X                
- + Mean of Body Gyro FFT samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT samples for X axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-mean()-Y                
- + Mean of Body Gyro FFT samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT samples for Y axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-mean()-Z                
- + Mean of Body Gyro FFT samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT samples for Z axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-meanFreq()-X            
- + Mean of Body Gyro mean frequency samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro mean frequency samples for X axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-meanFreq()-Y            
- + Mean of Body Gyro mean frequency samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro mean frequency samples for Y axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-meanFreq()-Z            
- + Mean of Body Gyro mean frequency samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro mean frequency samples for Z axis per volunteer for activity measured in radians/second
 
 * fBodyAccMag-mean()                
- + Mean of Body Accelerometer Magnitude FFT samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Magnitude FFT samples per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccMag-meanFreq()            
- + Mean of Body Accelerometer Magnitude mean Frequency samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Magnitude mean Frequency samples per volunteer for activity measured in gravity unit 'g'
 
 * fBodyBodyAccJerkMag-mean()        
- + Mean of Body Accelerometer Jerk Magnitude FFT samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk Magnitude FFT samples per volunteer for activity measured in gravity unit 'g'
 
 * fBodyBodyAccJerkMag-meanFreq()    
- + Mean of Body Accelerometer Jerk Magnitude mean Frequency samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk Magnitude mean Frequency samples per volunteer for activity measured in gravity unit 'g'
 
 * fBodyBodyGyroMag-mean()           
- + Mean of Body Gyro Magnitude FFT samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Magnitude FFT samples per volunteer for activity measured in radians/second
 
 * fBodyBodyGyroMag-meanFreq()       
- + Mean of Body Gyro Magnitude mean Frequency samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Magnitude mean Frequency samples per volunteer for activity measured in radians/second
 
 * fBodyBodyGyroJerkMag-mean()       
- + Mean of Body Gyro Jerk Magnitude FFT samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk Magnitude FFT samples per volunteer for activity measured in radians/second
 
 * fBodyBodyGyroJerkMag-meanFreq()   
- + Mean of Body Gyro Jerk Magnitude mean Frequency samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk Magnitude mean Frequency samples per volunteer for activity measured in radians/second
 
 * tBodyAcc-std()-X                  
- + Mean of Body Accelerometer standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAcc-std()-Y                  
- + Mean of Body Accelerometer standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAcc-std()-Z                  
- + Mean of Body Accelerometer standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-std()-X               
- + Mean of Gravity Accelerometer standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-std()-Y               
- + Mean of Gravity Accelerometer standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAcc-std()-Z               
- + Mean of Gravity Accelerometer standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-std()-X              
- + Mean of Body Accelerometer Jerk standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-std()-Y              
- + Mean of Body Accelerometer Jerk standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerk-std()-Z              
- + Mean of Body Accelerometer Jerk standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * tBodyGyro-std()-X                 
- + Mean of Body Gyro standard deviation samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro standard deviation samples for X axis per volunteer for activity measured in radians/second
 
 * tBodyGyro-std()-Y                 
- + Mean of Body Gyro standard deviation samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro standard deviation samples for Y axis per volunteer for activity measured in radians/second
 
 * tBodyGyro-std()-Z                 
- + Mean of Body Gyro standard deviation samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro standard deviation samples for Z axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-std()-X             
- + Mean of Body Gyro Jerk standard deviation samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk standard deviation samples for X axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-std()-Y             
- + Mean of Body Gyro Jerk standard deviation samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk standard deviation samples for Y axis per volunteer for activity measured in radians/second
 
 * tBodyGyroJerk-std()-Z             
- + Mean of Body Gyro Jerk standard deviation samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk standard deviation samples for Z axis per volunteer for activity measured in radians/second
 
 * tBodyAccMag-std()                 
- + Mean of Body Accelerometer Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
 
 * tGravityAccMag-std()              
- + Mean of Gravity Accelerometer Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
 
 * tBodyAccJerkMag-std()             
- + Mean of Gravity Accelerometer Jerk Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
++ Mean of Gravity Accelerometer Jerk Magnitude standard deviation samples per volunteer for activity measured in gravity unit 'g'
 
 * tBodyGyroMag-std()                
- + Mean of Body Gyro Magnitude standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Magnitude standard deviation samples per volunteer for activity measured in radians/second
 
 * tBodyGyroJerkMag-std()            
- + Mean of Body Gyro Jerk Magnitude standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk Magnitude standard deviation samples per volunteer for activity measured in radians/second
 
 * fBodyAcc-std()-X                  
- + Mean of Body Accelerometer FFT standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-std()-Y                  
- + Mean of Body Accelerometer FFT standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAcc-std()-Z                  
- + Mean of Body Accelerometer FFT standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer FFT standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-std()-X              
- + Mean of Body Accelerometer Jerk FFT standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk FFT standard deviation samples for X axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-std()-Y              
- + Mean of Body Accelerometer Jerk FFT standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk FFT standard deviation samples for Y axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyAccJerk-std()-Z              
- + Mean of Body Accelerometer Jerk FFT standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
++ Mean of Body Accelerometer Jerk FFT standard deviation samples for Z axis per volunteer for activity measured in gravity unit 'g'
 
 * fBodyGyro-std()-X                 
- + Mean of Body Gyro FFT standard deviation samples for X axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT standard deviation samples for X axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-std()-Y                 
- + Mean of Body Gyro FFT standard deviation samples for Y axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT standard deviation samples for Y axis per volunteer for activity measured in radians/second
 
 * fBodyGyro-std()-Z                 
- + Mean of Body Gyro FFT standard deviation samples for Z axis per volunteer for activity measured in radians/second
++ Mean of Body Gyro FFT standard deviation samples for Z axis per volunteer for activity measured in radians/second
 
 * fBodyAccMag-std()                 
- + Mean of Body Accelerometer Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Accelerometer Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
 
 * fBodyBodyAccJerkMag-std()         
- + Mean of Body Accelerometer Jerk Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Accelerometer Jerk Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
 
 * fBodyBodyGyroMag-std()            
- + Mean of Body Gyro Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
 
 * fBodyBodyGyroJerkMag-std()        
- + Mean of Body Gyro Jerk Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
++ Mean of Body Gyro Jerk Magnitude FFT standard deviation samples per volunteer for activity measured in radians/second
 
 ## Note
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
