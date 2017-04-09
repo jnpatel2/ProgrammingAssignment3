@@ -18,8 +18,7 @@ This code is splitted in different sections, divided in steps.
 ## Details about Variable for mean_per_var_act_sub.txt
 ### Variable Name and Detail
 
-* Activity
-  +                          Define Activity for which sample is taken
+* Activity+                       Define Activity for which sample is taken
 
 Subject                           Define volunteer number for which measurement
                                   is taken out of 30 volunteer 
